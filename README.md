@@ -49,10 +49,10 @@
 17. Once its launched, select the instance in the EC2 Instance list.
 18. Click on "Actions" and click on "Connect".
 19. Copy the command line and use that in your Terminal.
-20. Change the user to "openvpn".
-21. Once you login, you will be asked to a few questions.
-22. Use default for all.
-23. Set a password for "openvpnadmin" user.
-24. Install the OpenVPN Connect Client on your machine or mobile device.
-25. In the client, use the server URL. Login with your user account to download the profile.
+20. Change the user from **"root"** to **"openvpn"**.
+21. Once you login, you will be asked to a few questions to setup the server.
+22. Use default for all. Make sure that the network and DNS traffic are all routed through the VPN server.
+23. Set a password for **"openvpnadmin"** user.
+24. Install the [**OpenVPN Connect Client**](https://openvpn.net/client/) on your machine or mobile device.
+25. In the client, use the server URL. Login with your user account to download the profile (eg. https://50.50.2.1). You can find the public IP address from the AWS EC2 Console.
 26. Remember to save the password.
