@@ -61,10 +61,10 @@
  	```
 
 23. Once you login, you will be prompted to setup the OpenVPN server. Use default values for most of the prompts (just press enter). Make sure that the **network** and **DNS traffic** are all routed through the VPN server.
-25. Set a password for **"openvpnas"** user.
+25. Set a password for **"openvpn"** user.
 26. Install the [**OpenVPN Connect Client**](https://openvpn.net/client/) on your machine or mobile device.
-27. In the client, use the server URL. Login with your user account to download the profile (eg. https://50.50.2.1:943).
-	
+27. In the client, use the server URL (eg. https://50.50.2.1:943) to login with your user account (**"openvpn"**). This will download the OpenVPN profile.
+
  	> **Note:** You can find the public IP address from the AWS EC2 Console.
 
 29. Remember to save the password so you don't have to type in the password every time you start the VPN.
